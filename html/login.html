@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set, compatibility, and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title -->
+    <title>Login/Register</title>
+
+    <!-- Link to the external stylesheet for styling -->
+    <link rel="stylesheet" href="/Codes/23049273 Mandeep Basnet IS Codes/css/login.css"> <!-- Assuming you have a separate CSS file for styling -->
+</head>
+
+<body>
+    <!-- Navigation section -->
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <!-- Logo placeholder (you may uncomment and replace with an actual logo) -->
+                <!-- <img src="./img/Black Paper Printer Logo.jpg" alt="printer logo" style="height: 100px; width: 100px;"> -->
+                <div class="logo">IIC &nbsp<span>Sh</span>op</div>
+                <a href="index.html" class="item" onclick="refreshPage()">Home</a>
+                <a href="research.html" class="item">Research</a>
+                <a href="about.html" class="item">About Us</a>
+                <a href="contact.html" class="item">Contact Us</a>
+                <a href="protfolio.html" class="item">Protfolio</a>
+                <a href="blog.html" class="item">Blog</a>
+                <a href="login.html" class="item login">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Welcome message -->
+    <div class="fill"><br><br><br><h1>Welcome! Log in or Register</h1></div>
+
+    <!-- Form containers for login and registration -->
+    <div class="container">
+        <div class="form-container" id="loginContainer">
+            <!-- Left container for login -->
+            <div class="left-container">
+                <div class="left-inner-container">
+                    <h2>Login</h2>
+                    <p>Already have an account? Log in below.</p>
+                </div>
+            </div>
+
+            <!-- Right container for login form -->
+            <div class="right-container">
+                <div class="right-inner-container">
+                    <form action="#" method="post" id="loginForm" onsubmit="return handleLogin()">
+                        <h2 class="lg-view">Login</h2>
+                        <p>* Required</p>
+                        <input type="email" name="loginEmail" placeholder="Email *" required/>
+                        <input type="password" name="loginPassword" placeholder="Password *" required/>
+                        <button type="submit">Login</button>
+                    </form>
+                    <p style="margin-top: 15px;">Not registered yet? <a href="#" id="registerLink">Register now</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-container" id="registerContainer" style="display: none;">
+            <!-- Left container for registration -->
+            <div class="left-container">
+                <div class="left-inner-container">
+                    <h2>Register</h2>
+                    <p>New here? Register below.</p>
+                </div>
+            </div>
+
+            <!-- Right container for registration form -->
+            <div class="right-container">
+                <div class="right-inner-container">
+                    <form action="#" method="post" id="registerForm" onsubmit="return handleRegistration()">
+                        <h2 class="lg-view">Register</h2>
+                        <p>* Required</p>
+                        <input type="text" name="name" placeholder="Name *" required/>
+                        <input type="email" name="email" placeholder="Email *" required/>
+                        <input type="password" name="password" placeholder="Password *" required/>
+                        <input type="password" name="confirmPassword" placeholder="Confirm Password *" required/>
+                        <button type="submit">Register</button>
+                    </form>
+                    <p style="margin-top: 15px;">Already have an account? <a href="#" id="loginLink">Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript section for form switching functionality -->
+    <script>
+        function handleLogin() {
+            // Perform your login logic here
+            alert("Successfully logged in!");
+            return false; // Prevents the form from actually submitting
+        }
+
+        function handleRegistration() {
+            // Perform your registration logic here
+            alert("Successfully registered!");
+            return false; // Prevents the form from actually submitting
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var loginContainer = document.getElementById("loginContainer");
+            var registerContainer = document.getElementById("registerContainer");
+            var loginLink = document.getElementById("loginLink");
+            var registerLink = document.getElementById("registerLink");
+
+            // Show the registration form when the link is clicked
+            registerLink.addEventListener("click", function(event) {
+                event.preventDefault();
+                loginContainer.style.display = "none";
+                registerContainer.style.display = "flex";
+            });
+
+            // Show the login form when the link is clicked
+            loginLink.addEventListener("click", function(event) {
+                event.preventDefault();
+                loginContainer.style.display = "flex";
+                registerContainer.style.display = "none";
+            });
+        });
+    </script>
+</body>
+</html>

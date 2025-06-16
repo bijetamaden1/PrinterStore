@@ -1,0 +1,48 @@
+/* Body Styles */
+body {
+  /* Set background image for the body */
+  background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+  font-family: Arial, sans-serif; /* Use Arial or sans-serif as the fallback font */
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* Set background image for the table */
+  background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+}
+
+/* Table Header and Data Cell Styles */
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Add border bottom for separation */
+  color: white; /* Set text color to white */
+}
+
+/* Table Header Styles */
+th {
+  color: white; /* Set header text color to white */
+}
+
+/* List Styles within Table Data Cell */
+td ul {
+  padding: 0;
+  list-style-type: none;
+  color: white; /* Set text color to white */
+}
+
+/* List Item Styles within Table Data Cell */
+td ul li {
+  padding: 3px 0;
+  color: white; /* Set text color to white */
+}
+
+/* Image Styles within Table Data Cell */
+table td img {
+  width: auto;
+  height: auto;
+  object-fit: cover; /* Ensure image covers the container */
+  color: white; /* Set text color to white */
+}

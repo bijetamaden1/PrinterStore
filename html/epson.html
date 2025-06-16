@@ -1,0 +1,268 @@
+<!-- HTML document with English as the language -->
+<html lang="en">
+  <head>
+    <!-- Meta tags for character set and viewport settings -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Linking Google Fonts and external stylesheet -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/Codes/23049273 Mandeep Basnet IS Codes/css/s.css" />
+
+    <!-- Page title -->
+    <title>Epson</title>
+  </head>
+
+  <body>
+    <!-- Navigation section -->
+    <nav id="nav">
+      <div class="navTop">
+        <div class="navItem">
+          <!-- Company logo -->
+          <div class="logo">IIC &nbsp<span>Sh</span>op</div>
+        </div>
+        <div class="navItem">
+          <!-- Limited offer notification -->
+          <span class="limitedOffer">Limited Offer!</span>
+        </div>
+      </div>
+      <div class="navBottom">
+        <!-- Navigation menu items -->
+        <h3 class="menuItem">EcoTank ET-2800</h3>
+        <h3 class="menuItem">Workforce® Pro WF-3820</h3>
+        <h3 class="menuItem">EcoTank ET-15000</h3>
+        <h3 class="menuItem">EcoTank® Pro ET-16600</h3>
+        <h3 class="menuItem">EcoTank Pro ET-5800</h3>
+      </div>
+    </nav>
+
+    <!-- Slider section -->
+    <div class="slider">
+      <div class="sliderWrapper">
+        <!-- Slider items with product details -->
+        <div class="sliderItem">
+          <!-- Product image -->
+          <img
+            src="/Codes/23049273 Mandeep Basnet IS Codes/img/epsonprinter1-removebg-preview.png"
+            alt="esponprinters1"
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <!-- Product title, price, and buy button -->
+          <h1 class="sliderTitle">EcoTank ET-2800</h1>
+          <h2 class="sliderPrice">$199.99</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+        <!-- Repeat similar structure for other slider items -->
+        <div class="sliderItem">
+          <img
+            src="/Codes/23049273 Mandeep Basnet IS Codes/img/epsonprinter2-removebg-preview.png"
+            alt="esponprinters2"
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">Workforce® Pro WF-3820</h1>
+          <h2 class="sliderPrice">$99.99</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+
+        <div class="sliderItem">
+          <img
+            src="/Codes/23049273 Mandeep Basnet IS Codes/img/epsonprinter3-removebg-preview.png"
+            alt="esponprinters3"
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">EcoTank ET-15000</h1>
+          <h2 class="sliderPrice">$479.99</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+
+        <div class="sliderItem">
+          <img
+            src="/Codes/23049273 Mandeep Basnet IS Codes/img/epsonprinter4-removebg-preview.png"
+            alt="esponprinter4"
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">EcoTank® Pro ET-16600</h1>
+          <h2 class="sliderPrice">$749.99</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+
+        <div class="sliderItem">
+          <img
+            src="/Codes/23049273 Mandeep Basnet IS Codes/img/esponprinter5-removebg-preview.png"
+            alt="esponprinter5"
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">EcoTank Pro ET-5800</h1>
+          <h2 class="sliderPrice">$797.00</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- "Know more" button -->
+    <a href="moreEpson.html">
+      <button class="know">Know more</button>
+    </a>
+
+    <!-- Payment section -->
+    <div class="payment">
+      <!-- Personal Information -->
+      <h1 class="payTitle">Personal Information</h1>
+      <label>Name and Surname</label>
+      <input type="text" placeholder="John Doe" class="payInput" />
+      <label>Phone Number</label>
+      <input type="text" placeholder="+1 234 5678" class="payInput" />
+      <label>Address</label>
+      <input type="text" placeholder="Elton St 21 22-145" class="payInput" />
+
+      <!-- Card Information -->
+      <h1 class="payTitle">Card Information</h1>
+      <!-- Card icons and input field for card details -->
+      <div class="cardIcons">
+        <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/visa.png" width="40" alt="" class="cardIcon" />
+        <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/master.png" alt="" width="40" class="cardIcon" />
+      </div>
+      <input type="password" class="payInput" placeholder="Card Number" />
+      <!-- Input fields for card expiry and CVV -->
+      <div class="cardInfo">
+        <input type="text" placeholder="mm" class="payInput sm" />
+        <input type="text" placeholder="yyyy" class="payInput sm" />
+        <input type="text" placeholder="cvv" class="payInput sm" />
+      </div>
+      <!-- Checkout button and close button -->
+      <button class="payButton" onclick="checkout()">Checkout!</button>
+      <span class="close">X</span>
+    </div>
+
+    <!-- Script tag for JavaScript file -->
+    <script src="/Codes/23049273 Mandeep Basnet IS Codes/js/script.js"></script>
+  </body>
+
+  <!-- Footer section -->
+  <footer>
+    <!-- Left section of the footer -->
+    <div class="footerLeft">
+      <!-- About Us section with links -->
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">About Us</h1>
+        <ul class="fList">
+          <a href="about.html"><li class="fListItem">Company</li></a>
+          <a href="contact.html"><li class="fListItem">Contact</li></a>
+          <a href="index.html"><li class="fListItem">Affiliates</li></a>
+        </ul>
+      </div>
+      <!-- Useful Links section with links -->
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">Useful Links</h1>
+        <ul class="fList">
+          <a href="contact.html"><li class="fListItem">Support</li></a>
+          <a href="contact.html"><li class="fListItem">Refund</li></a>
+          <a href="contact.html"><li class="fListItem">Feedback</li></a>
+          <a href="blog.html"><li class="fListItem">Stories</li></a>
+        </ul>
+      </div>
+      <!-- Products section with links -->
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">Products</h1>
+        <ul class="fList">
+          <a href="canon.html"><li class="fListItem">Canon</li></a>
+          <a href="hp.html"><li class="fListItem">HP</li></a>
+          <a href="epson.html"><li class="fListItem">Epson</li></a>
+          <a href="samsung.html"><li class="fListItem">Samsung</li></a>
+          <a href="xerox.html"><li class="fListItem">Xerox</li></a>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right section of the footer -->
+    <div class="footerRight">
+      <!-- Subscribe to our newsletter section -->
+      <div class="footerRightMenu">
+        <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+        <div class="fMail">
+          <!-- Input field for email and subscribe button -->
+          <input
+            type="email"
+            id="newsletterEmail"
+            placeholder="your@email.com"
+            class="fInput"
+          />
+          <button onclick="subscribeNewsletter()" class="fButton">Join!</button>
+        </div>
+      </div>
+      <!-- Follow Us section with social icons -->
+      <div class="footerRightMenu">
+        <h1 class="fMenuTitle">Follow Us</h1>
+        <div class="fIcons">
+          <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/facebook.png" alt="" class="fIcon" />
+          <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/twitter.png" alt="" class="fIcon" />
+          <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/instagram.png" alt="" class="fIcon" />
+          <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/whatsapp.png" alt="" class="fIcon" />
+        </div>
+      </div>
+      <!-- Copyright section -->
+      <div class="footerRightMenu">
+        <span class="copyright"
+          >@Mandeep Basnet. All rights reserved. 2024.</span
+        >
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script tag for JavaScript functions -->
+  <script>
+    // Function to handle newsletter subscription
+    function subscribeNewsletter() {
+      // Get the email input value
+      var email = document.getElementById("newsletterEmail").value;
+
+      // Check if the email is not empty
+      if (email.trim() !== "") {
+        // Display a confirmation message
+        alert("Successfully subscribed to the newsletter: " + email);
+      } else {
+        // Display an error message if the email is empty
+        alert("Please enter a valid email address");
+      }
+    }
+
+    // Function to handle checkout process
+    function checkout() {
+      // Check if all fields are filled
+      var inputs = document.querySelectorAll(".payInput");
+      var allFilled = true;
+
+      inputs.forEach(function (input) {
+        if (input.value.trim() === "") {
+          allFilled = false;
+        }
+      });
+
+      if (allFilled) {
+        alert("Successfully checked out!");
+        // Add additional logic here if needed
+      } else {
+        alert("Please fill out all fields before checking out.");
+      }
+    }
+  </script>
+</html>

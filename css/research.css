@@ -1,0 +1,88 @@
+/* Styling for Navigation Bar */
+nav {
+  color: white;
+  padding: 20px 50px;
+  background-color: black;
+}
+
+/* Styling for Navigation Items */
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Styling for Logo Text with a special color */
+.logo span {
+  color: #0474bc;
+}
+
+/* Styling for Navigation Item Text */
+.item {
+  color: white;
+}
+
+/* Hover effect on Navigation Item */
+.item:hover {
+  border: white solid 2px;
+}
+
+/* Body Styling - Font family, margin, and background image */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+}
+
+/* Heading 1 and Heading 2 Styling */
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+/* Styling for the Inspiration Section */
+.inspiration-section {
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Styling for the E-commerce Giants section */
+.ecommerce-giants {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  color: white;
+}
+
+/* Styling for Brand Homepages section */
+.brand-homepages {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.brand-homepages h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for Brand Screenshots section */
+.brand-screenshots {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Styling for Screenshot Rows */
+.screenshot-row {
+  margin-top: 10px;
+}
+
+/* Styling for Screenshot Images */
+.screenshot-row img {
+  max-width: 100%;
+  height: auto;
+}

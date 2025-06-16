@@ -1,0 +1,92 @@
+/* Apply box-sizing property to all elements for consistent box model */
+* {
+  box-sizing: border-box;
+}
+
+/* Styling for Navigation Bar */
+nav {
+  color: white;
+  padding: 20px 50px;
+  background-color: black;
+}
+
+/* Styling for Navigation Items */
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Styling for Navigation Item Text */
+.item {
+  color: white;
+}
+
+/* Styling for Logo Text with a special color */
+.logo span {
+  color: #0474bc;
+}
+
+/* Hover effect on Navigation Item */
+.item:hover {
+  border: white solid 2px;
+}
+
+/* Body Styling - Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+  /* Background image for the body */
+  background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+}
+
+/* Header/Blog Title Styling */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Left Column Styling */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right Column Styling */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake Image Styling */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Card Styling for Articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer Styling */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}

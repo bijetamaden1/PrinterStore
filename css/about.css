@@ -1,0 +1,54 @@
+/* Styling for Navigation Bar */
+nav {
+  color: white;
+  padding: 20px 50px;
+  background-color: black;
+}
+
+/* Styling for Navigation Items */
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Styling for Logo */
+.logo span {
+  color: #0474bc;
+}
+
+/* Styling for Navigation Item Text */
+.item {
+  color: white;
+}
+
+/* Hover effect on Navigation Item */
+.item:hover {
+  border: white solid 2px;
+}
+
+/* Styling for Body Background Image */
+body {
+  background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+}
+
+/* Styling for Heading 1 */
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+/* Styling for About Section */
+.about {
+  align-items: center;
+}
+
+/* Styling for Paragraph 1 */
+.par1 {
+  text-align: justify;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+  color: white;
+  font-size: 30px;
+}

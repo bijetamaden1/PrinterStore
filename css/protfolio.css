@@ -1,0 +1,136 @@
+/* Global styles - apply box-sizing, reset margin and padding, and set font family */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Styling for Navigation Bar */
+nav {
+  color: white;
+  padding: 20px 50px;
+  background-color: black;
+}
+
+/* Styling for Logo Text with a special color */
+.logo span {
+  color: #0474bc;
+}
+
+/* Styling for Navigation Items */
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Styling for Navigation Item Text */
+.item {
+  color: white;
+}
+
+/* Hover effect on Navigation Item */
+.item:hover {
+  border: white solid 2px;
+}
+
+/* Body Styling - Background image */
+body {
+  background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+}
+
+/* Styling for the row container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em 1em;
+  text-align: center;
+}
+
+/* Styling for the column */
+.column {
+  width: 20%;
+  padding: 10% 0;
+}
+
+/* Heading 1 Styling */
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3.5em;
+  color: white;
+}
+
+/* Styling for the card */
+.card {
+  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+  padding: 3.5em 1em;
+  border-radius: 0.6em;
+  color: #1f003b;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #ffffff;
+}
+
+/* Styling for the image container inside the card */
+.card .img-container {
+  width: 8em;
+  height: 8em;
+  background-color: #a993ff;
+  padding: 0.1em;
+  border-radius: 50%;
+  margin: 0 auto 2em auto;
+}
+
+/* Styling for the image inside the card */
+.card img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* Heading 3 Styling inside the card */
+.card h3 {
+  font-weight: 500;
+}
+
+/* Paragraph Styling inside the card */
+.card p {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0.5em 0 2em 0;
+  letter-spacing: 2px;
+}
+
+/* Styling for the icons container inside the card */
+.icons {
+  width: 50%;
+  min-width: 180px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling for links inside the card */
+.card a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4em;
+}
+
+/* Hover effect on the card */
+.card:hover {
+  background: linear-gradient(#6045ea, #8567f7);
+  color: #ffffff;
+}
+
+/* Hover effect on the image container inside the card */
+.card:hover .img-container {
+  transform: scale(1.15);
+}
+
+/* Hover effect on the entire card */
+.card:hover {
+  transform: scale(1.15);
+  transition: 0.5s fade;
+}

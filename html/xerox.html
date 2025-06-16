@@ -1,0 +1,249 @@
+
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set, compatibility, and viewport settings -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts link for the Lato font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- External stylesheet link for custom styles -->
+    <link rel="stylesheet" href="/Codes/23049273 Mandeep Basnet IS Codes/css/s.css">
+
+    <!-- Page title -->
+    <title>Xerox</title>
+</head>
+
+<body>
+    <!-- Navigation section -->
+    <nav id="nav">
+        <!-- Top navigation bar with logo and limited offer notification -->
+        <div class="navTop">
+            <div class="navItem">
+                <!-- Logo placeholder (replace with actual logo) -->
+                <div class="logo">IIC &nbsp<span>Sh</span>op</div>
+            </div>
+            <div class="navItem">
+                <!-- Limited offer notification -->
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+
+        <!-- Bottom navigation bar with printer models -->
+        <div class="navBottom">
+            <h3 class="menuItem">Xerox C235</h3>
+            <h3 class="menuItem">Xerox C315</h3>
+            <h3 class="menuItem">Xerox VersaLink C405</h3>
+            <h3 class="menuItem">Xerox B235</h3>
+            <h3 class="menuItem">Xerox B415 Printer</h3>
+        </div>
+    </nav>
+
+    <!-- Slider section for showcasing printer models -->
+    <div class="slider">
+        <div class="sliderWrapper">
+            <!-- Individual slider item for Xerox C235 -->
+            <div class="sliderItem">
+                <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/xeroxprinter1-removebg-preview.png" alt="xeroxprinter1" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Xerox C235</h1>
+                <h2 class="sliderPrice">$382.79</h2>
+                <!-- Buy button linked to product details section -->
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+
+            <!-- Repeat similar structure for other slider items -->
+            <div class="sliderItem">
+                <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/xeroxprinter2-removebg-preview.png" alt="xeroxprinter2" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Xerox C315</h1>
+                <h2 class="sliderPrice">$402.97</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+
+            <div class="sliderItem">
+                <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/xeroxprinter3-removebg-preview.png" alt="xeroxprinter3" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Xerox VersaLink C405</h1>
+                <h2 class="sliderPrice">$899.00</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+
+            <div class="sliderItem">
+                <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/xeroxprinter4-removebg-preview.png" alt="xeroxprinter4" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Xerox B235</h1>
+                <h2 class="sliderPrice">$121.97</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+
+            <div class="sliderItem">
+                <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/xeroxprinter5-removebg-preview.png" alt="xeroxprinter5" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Xerox B415 Printer</h1>
+                <h2 class="sliderPrice">$1,136.49</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button to navigate to a page with more information about Xerox printers -->
+    <a href="moreXerox.html">
+        <button class="know">Know more</button>
+    </a>
+
+    <!-- Payment information section for user checkout -->
+    <div class="payment">
+        <h1 class="payTitle">Personal Information</h1>
+        <!-- Input fields for name, phone number, and address -->
+        <label>Name and Surname</label>
+        <input type="text" placeholder="John Doe" class="payInput">
+        <label>Phone Number</label>
+        <input type="text" placeholder="+1 234 5678" class="payInput">
+        <label>Address</label>
+        <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+
+        <h1 class="payTitle">Card Information</h1>
+        <!-- Card icons and input fields for card details -->
+        <div class="cardIcons">
+            <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/visa.png" width="40" alt="" class="cardIcon">
+            <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/master.png" alt="" width="40" class="cardIcon">
+        </div>
+        <input type="password" class="payInput" placeholder="Card Number">
+        <div class="cardInfo">
+            <input type="text" placeholder="mm" class="payInput sm">
+            <input type="text" placeholder="yyyy" class="payInput sm">
+            <input type="text" placeholder="cvv" class="payInput sm">
+        </div>
+
+        <!-- Button to initiate the checkout process -->
+        <button class="payButton" onclick="checkout()">Checkout!</button>
+        <!-- Close button for the payment section -->
+        <span class="close">X</span>
+    </div>
+
+    <!-- JavaScript file for interactive functionalities -->
+    <script src="/Codes/23049273 Mandeep Basnet IS Codes/js/script.js"></script>
+</body>
+
+<!-- Footer section with company information, useful links, and subscription -->
+<footer>
+    <!-- Left section with information about the company and useful links -->
+    <div class="footerLeft">
+        <div class="footerMenu">
+            <h1 class="fMenuTitle">About Us</h1>
+            <!-- List of about us links -->
+            <ul class="fList">
+                <a href="about.html"><li class="fListItem">Company</li></a>
+                <a href="contact.html"><li class="fListItem">Contact</li></a>
+                <a href="index.html"><li class="fListItem">Affiliates</li></a>
+            </ul>
+        </div>
+
+        <div class="footerMenu">
+            <h1 class="fMenuTitle">Useful Links</h1>
+            <!-- List of useful links -->
+            <ul class="fList">
+                <a href="contact.html"><li class="fListItem">Support</li></a>
+                <a href="contact.html"><li class="fListItem">Refund</li></a>
+                <a href="contact.html"><li class="fListItem">Feedback</li></a>
+                <a href="blog.html"><li class="fListItem">Stories</li></a>
+            </ul>
+        </div>
+
+        <div class="footerMenu">
+            <h1 class="fMenuTitle">Products</h1>
+            <!-- List of product categories -->
+            <ul class="fList">
+                <a href="canon.html"><li class="fListItem">Canon</li></a>
+                <a href="hp.html"><li class="fListItem">HP</li></a>
+                <a href="epson.html"><li class="fListItem">Epson</li></a>
+                <a href="samsung.html"><li class="fListItem">Samsung</li></a>
+                <a href="xerox.html"><li class="fListItem">Xerox</li></a>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Right section with newsletter subscription, social media links, and copyright -->
+    <div class="footerRight">
+        <div class="footerRightMenu">
+            <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+            <!-- Input field and button for newsletter subscription -->
+            <div class="fMail">
+                <input type="email" id="newsletterEmail" placeholder="your@email.com" class="fInput">
+                <button onclick="subscribeNewsletter()" class="fButton">Join!</button>
+            </div>
+        </div>
+
+        <div class="footerRightMenu">
+            <h1 class="fMenuTitle">Follow Us</h1>
+            <!-- Social media icons for following the company -->
+            <div class="fIcons">
+                <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/facebook.png" alt="" class="fIcon">
+                <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/twitter.png" alt="" class="fIcon">
+                <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/instagram.png" alt="" class="fIcon">
+                <img src="/Codes/23049273 Mandeep Basnet IS Codes/img/whatsapp.png" alt="" class="fIcon">
+            </div>
+        </div>
+
+        <div class="footerRightMenu">
+            <!-- Copyright information -->
+            <span class="copyright">@Mandeep Basnet. All rights reserved. 2024.</span>
+        </div>
+    </div>
+</footer>
+
+<!-- Script section for JavaScript functions -->
+<script>
+    // Function to handle newsletter subscription
+    function subscribeNewsletter() {
+        // Get the email input value
+        var email = document.getElementById("newsletterEmail").value;
+
+        // Check if the email is not empty
+        if (email.trim() !== "") {
+            // Display a confirmation message
+            alert("Successfully subscribed to the newsletter: " + email);
+        } else {
+            // Display an error message if the email is empty
+            alert("Please enter a valid email address");
+        }
+    }
+
+    // Function to handle the checkout process
+    function checkout() {
+        // Check if all fields are filled
+        var inputs = document.querySelectorAll('.payInput');
+        var allFilled = true;
+
+        inputs.forEach(function (input) {
+            if (input.value.trim() === '') {
+                allFilled = false;
+            }
+        });
+
+        if (allFilled) {
+            // Display a success message if all fields are filled
+            alert('Successfully checked out!');
+            // Add additional logic here if needed
+        } else {
+            // Display an error message if any field is empty
+            alert('Please fill out all fields before checking out.');
+        }
+    }
+</script>
+
+</html>
